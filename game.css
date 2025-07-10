@@ -1,0 +1,86 @@
+@media(min-width:300px) and (max-width:540px){
+  *{
+    margin: 0px;
+    padding:0px;
+    text-transform: capitalize;
+  }
+  body{
+    background-color:#548687;
+    text-align: center;
+  }
+  main > h1{
+    background-color: #5fabac;
+    color: whitesmoke;
+    padding: 1rem 0px;
+    border-bottom: 0.1rem solid gold;
+  }
+  main > h2{
+    color: gold;
+  }
+  .box{
+    width: 90%;
+    height: fit-content;
+    background-color: black;
+    margin: auto;
+    align-content: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.2rem 0.2rem 0.2rem black;
+  }
+  .btnBox{
+    width: 100%;
+    display: flex;
+  }
+  button{
+    width:inherit;
+    height: 20vw;
+    border: none;
+    background-color: #5fabac;
+  }
+  #btn1{
+    margin: 0px 0.1rem 0.1rem 0px;
+  }
+  #btn3{
+    margin: 0px 0px 0.1rem 0.1rem;
+  }
+  #btn4{
+    margin: 0px 0.1rem 0.1rem 0px;
+  }
+  #btn6{
+    margin: 0px 0px 0px 0.1rem;
+  }
+  #btn7{
+    margin: 0px 0.1rem 0px 0px;
+  }
+  #btn9{
+    margin: 0px 0px 0px 0.1rem;
+  }
+
+  #btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9{
+    font-size: 40px;
+  }
+  .playerBoxContainer{
+    width: 90%;
+    height: auto;
+    background-color:#5fabac;
+    display: flex;
+    margin: auto;
+    box-shadow: 0.2rem 0.2rem 0.2rem black;
+  }
+  .playerBox{
+    width: 50%;
+    height: auto;
+    padding: 1rem 0px;
+    margin: auto;
+  }
+  .playerBox h3{
+    text-transform: uppercase;
+  }
+  .playerBox p{
+    font-weight: bold;
+    color:white;
+  }
+}

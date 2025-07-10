@@ -1,38 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 user-scalable=no">
-  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
 </head>
 <body>
-  <main>
-    <h1 style="text-transform: capitalize;">tic-tac-toe</h1>
-    <h2 id="win" style="color: gold;"></h2>
-    <div class="box">
-      <div class="btnBox">
-        <button id="btn1"></button>
-        <button id="btn2"></button>
-        <button id="btn3"></button>
+  <div class="container">
+    <h1>enter details</h1>
+    <form action="">
+      <label for="playerOne">player 1:</label>
+      <input type="text" id="playerOne">
+      <br>
+      <br>
+      <label for="playerTwo">player 2:</label>
+      <input type="text" id="playerTwo">
+      <br>
+      <br>
+      <div class="buttonBox">
+        <input type="submit" id="submit">
+        <input type="reset" id="reset">
       </div>
-
-      <div class="btnBox">
-        <button id="btn4"></button>
-        <button id="btn5"></button>
-        <button id="btn6"></button>
-      </div>
-
-      <div class="btnBox">
-        <button id="btn7"></button>
-        <button id="btn8"></button>
-        <button id="btn9"></button>
-      </div> 
-    </div>
-    <br>
-    <h3>Player 1:<span id="fp1"></span></h3>
-    <h3>Player 2:<span id="fp2"></span></h3>
-  </main>
-  <script src="Script.js"></script>
+    </form>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
