@@ -8,7 +8,7 @@ submit.addEventListener("click", function(){
   if(player1 && player2){
     localStorage.setItem("player1",player1);
     localStorage.setItem("player2",player2);
-    window.location.href = "game.html"; // redirect to game page
+    window.location.href = "https://github.com/Ramsundar-Kushwaha/tic-tac-toe-game/blob/main/game.html"; // redirect to game page
   }
   else{
     alert("please enter both player names.");
