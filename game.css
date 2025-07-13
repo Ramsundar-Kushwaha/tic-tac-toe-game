@@ -1,24 +1,23 @@
+body{
+  text-align: center;
+}
 @media(min-width:300px) and (max-width:540px){
   *{
     margin: 0px;
     padding:0px;
     text-transform: capitalize;
   }
-  body{
-    background-color:#548687;
-    text-align: center;
-  }
   main > h1{
-    background-color: #5fabac;
+    background-color: green;
     color: whitesmoke;
     padding: 1rem 0px;
-    border-bottom: 0.1rem solid gold;
+    border-bottom: 0.1rem solid blue;
   }
-  main > h2{
-    color: gold;
+  main > h3{
+    color: blue;
   }
   .box{
-    width: 90%;
+    width: 95%;
     height: fit-content;
     background-color: black;
     margin: auto;
@@ -28,7 +27,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0.2rem 0.2rem 0.2rem black;
+    border: none;
   }
   .btnBox{
     width: 100%;
@@ -36,9 +35,10 @@
   }
   button{
     width:inherit;
-    height: 20vw;
+    height: 35vw;
     border: none;
-    background-color: #5fabac;
+    background-color: white;
+    outline: none;
   }
   #btn1{
     margin: 0px 0.1rem 0.1rem 0px;
@@ -65,10 +65,10 @@
   .playerBoxContainer{
     width: 90%;
     height: auto;
-    background-color:#5fabac;
+    background-color:white;
     display: flex;
     margin: auto;
-    box-shadow: 0.2rem 0.2rem 0.2rem black;
+    box-shadow: 0.1rem 0.1rem 0.2rem green;
   }
   .playerBox{
     width: 50%;
@@ -81,6 +81,20 @@
   }
   .playerBox p{
     font-weight: bold;
-    color:white;
+    color:green;
+  }
+  .newGame{
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 2rem;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+  }
+  a{
+    text-decoration: none;
+    margin: auto;
+    color: white;
   }
 }
